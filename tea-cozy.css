@@ -1,0 +1,128 @@
+html, body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-left: 10px;
+    opacity: 0.8;
+  }
+  .lista {
+    margin-right: 10px;
+    color: gray;
+  }
+  .lista:hover {
+      color: orange;
+  }
+  
+  .lista li {
+    text-decoration: underline;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .banner {
+    width: 1200px;
+    height: 700px;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg") center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    z-index: 2px;
+  }
+  
+  .description {
+    background-color: black;
+    background-size: cover;
+    width: 1200px;
+  }
+  
+  
+
+  .supporting {
+    position: relative;
+    top: 140px;
+    margin:0 auto;
+    width: 1000px;
+  }
+  
+  .container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .supporting h4 {
+    font-weight: bold;
+    line-height: 20px;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+  
+  .container img {
+    height: 200px;
+    width: 300px;
+  }
+  .bannerTwo {
+    width: 1200px;
+    height: 500px;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 210px;
+    z-index: 2px;
+    flex-direction: column;
+  }
+  
+  .adress {
+    display: inline-flex;
+  }
+  
+  .locals {
+    background-color: black;
+    background-size: cover;
+    width: 300px;
+    margin: 15px 20px;
+  }
+  
+  .bottom {
+    position: relative;
+    top: 200px;
+    margin:0 auto;
+    height: 200px;
+  }
+  
+  
+  footer {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  
+ 
