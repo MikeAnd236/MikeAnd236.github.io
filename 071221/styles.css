@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-items: center;
+  align-items: center;
+  background-image: linear-gradient(pink, lightgreen) ;
+  
+}
+h1 {
+  color:blueviolet;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+}
+#login-form {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 20px;
+}
+#login-form-submit {
+  font-weight: bold;
+  background-color: gray;
+  color: wheat;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+}
+#login-form-submit:hover {
+  color: black;
+  background-color: tomato;
+}
