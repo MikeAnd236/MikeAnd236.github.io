@@ -1,0 +1,327 @@
+body {
+  background: linear-gradient(145.44deg, #f2f4fa 0%, #fafbfc 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  text-align: left;
+}
+* {
+  box-sizing: border-box;
+}
+.header-image {
+  height: 100%;
+  max-height: 320px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+}
+.body-content {
+  display: flex;
+  justify-content: center;
+}
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2.5rem;
+}
+.header-wraper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header-box {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  max-width: 1170px;
+  height: 140px;
+  margin: 0px 0px 14px;
+  padding: 10px;
+  top: -50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 20px 40px rgb(103, 118, 128 / 3%);
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.header_left {
+  color: #5e6e80;
+  font-size: 14px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  flex: 0 0 50%;
+  position: relative;
+  width: 50%;
+}
+.header_photo-img {
+  background-color: #ffffff;
+  border: 0.375rem solid #ffffff;
+  border-radius: 2.9375rem;
+  box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 5%);
+  margin-left: 1.5rem;
+  overflow: hidden;
+  width: 150px;
+  position: relative;
+  z-index: 1;
+  top: -40px;
+}
+.header_base-info {
+  margin: 20px 15px;
+  text-align: left;
+  align-items: center;
+}
+.header_base-info h4 {
+  color: #3b4b5e;
+  font-size: 1.5rem;
+  line-height: 31.2px;
+  letter-spacing: 0.9px;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+}
+.status {
+  font-size: 14px;
+  font-weight: normal;
+  display: inline-flex;
+}
+.social {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  list-style: none;
+  margin-top: -0.25rem;
+  margin-bottom: 0;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.social img {
+  padding: 7px;
+}
+
+.header_right {
+  width: 50%;
+  font-size: 14px;
+  color: #5e6e80;
+  font-weight: normal;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  flex: 0 0 50%;
+  position: relative;
+}
+.header_contact {
+  width: 50%;
+}
+.header_contact li {
+  margin: 20px 0;
+}
+.header_profile {
+  width: 50%;
+}
+.header_profile li {
+  margin: 20px 0;
+}
+.row-sticky_parent {
+  font-family: "Poppins", sans-serif;
+  color: #5e6e80;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: -2rem;
+}
+.sidebar-box {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  box-shadow: 0 20px 40px rgb(103 118 128 / 3%);
+  font-size: 14px;
+  text-align: left;
+  position: relative;
+}
+.nav {
+  padding-left: 0;
+}
+.nav_item {
+  width: 100px;
+  height: 6.25rem;
+  margin-bottom: 1rem;
+  border-radius: 16px;
+  text-transform: uppercase;
+  background-color: #f7f9fa;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.nav_item a {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  color: #5e6e80;
+  font-size: 0.875rem;
+}
+.nav_item .active {
+  background-color: #f7f9fa;
+  background-image: linear-gradient(142.17deg, #3086ff 6.66%, #304cfd 91.48%);
+  border-radius: 16px;
+  box-shadow: #000000 0px 0px 5px 0px;
+  color: #ffffff;
+}
+.nav_item img {
+  width: 40px;
+  height: 40px;
+  margin-top: 0.75rem;
+}
+.content_parent {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 23.8px;
+  position: relative;
+  width: 100%;
+  margin-left: 20px;
+}
+.box_content {
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  max-height: 1200px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgb(103 118 128 / 3%);
+  padding: 1.875rem;
+  position: relative;
+  transition: box-shadow 0.3s ease-in-out;
+  justify-content: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #3b4b5e;
+  font-weight: 600;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.123rem;
+}
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.case {
+  flex: 0 0 50%;
+  position: relative;
+  max-width: 50%;
+}
+.case-item {
+  border: 2px solid #ebf0f2;
+  border-radius: 30px;
+  /* margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px; */
+
+  margin: 0 15px 20px;
+  padding: 1.875rem 1.875rem 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.case-item_icon {
+  width: 40px;
+  height: 40px;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.swiper-container-review {
+  cursor: grab;
+}
+.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+.swiper-item {
+  background-color: #f7f9fa;
+  background-image: url(https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/icon-quote.svg);
+  background-repeat: no-repeat;
+  background-position: right 1.875rem top 1.875rem;
+  border-radius: 20px;
+  height: auto;
+  padding: 1.875rem;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.avatar {
+  max-height: 5rem;
+  max-width: 5rem;
+  height: 100%;
+  width: 100%;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.avatar-hexagon {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.review-textbox {
+  margin-left: 1rem;
+}
+h4 {
+  font-size: 1.125rem;
+  text-align: left;
+}
+.swiper-container-clients {
+  cursor: grab;
+  padding: 0 0.5rem 1rem;
+  margin-bottom: -5rem;
+}
+.swiper-wrapper-clients {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  justify-content: space-around;
+}
+.footer {
+  color: #8d99a6;
+  font-size: 0.875rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.avt-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avt-container .avt-img {
+  width: 80px;
+  height: 80px;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  transform: scaleX(0.9);
+}
